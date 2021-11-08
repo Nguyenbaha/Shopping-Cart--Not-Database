@@ -1,0 +1,137 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+/*header*/
+nav {
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Login a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+    .Login a:hover {
+        color: tomato;
+    }
+
+.Logo img, .img-footer img {
+    width: 200px;
+}
+
+.nav-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-content ul {
+    text-align: center;
+}
+
+    .nav-content ul li {
+        display: inline-block;
+        margin: 15px;
+        font-size: 20px;
+    }
+
+        .nav-content ul li a:hover {
+            font-weight: bold;
+            color: #f83939;
+        }
+/*Footer*/
+.footer-item {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-footer ul {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+    .social-footer ul li {
+        padding: 10px;
+    }
+
+        .social-footer ul li a img {
+            width: 48px;
+        }
+ 
+
+    #exit {
+        text-decoration: underline;
+    }
+
+    .banner {
+        width: 100%;
+        border: 1px solid black;
+    }
+
+    .hotProduct, .hotProduct h3, .hotProduct hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .banner img {
+        width: 80%;
+    }
+
+    .product img {
+        width: 250px;
+    }
+
+    .product ul .product-content {
+        float: left;
+        margin: 10px;
+    }
+
+    .product ul {
+        margin: auto;
+    }
+
+    .hotProduct::after {
+        clear: both;
+        content: "";
+        display: table;
+    }
+
+    .product-content-detail {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        align-items: center;
+    }
+
+    .product {
+        display: flex;
+    }
+
+    .btnThem {
+        padding: 5px;
+        border: none;
+        cursor: pointer;
+        background-color: #f83939;
+        color: white;
+    }
+
+        .btnThem:hover {
+            background-color: #ff7878;
+        }

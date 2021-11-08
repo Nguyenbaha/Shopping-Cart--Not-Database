@@ -1,0 +1,34 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main-container{
+    padding: 20px;
+}
+.title{
+    margin-bottom: 20px;
+}
+#form{
+    font-size: 25px;
+}
+#form .inputregister{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+#form button, #Button1{
+    width: 50%;
+    padding: 10px;
+    border: none;
+}
+#form #Button1{
+    background-color: #f83939;
+    color: whitesmoke;
+}
+
+#form a {
+    color: black;
+    font-size: 15px;
+}

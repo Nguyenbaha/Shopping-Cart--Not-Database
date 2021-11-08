@@ -1,0 +1,144 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li {
+    list-style-type: none;
+}
+/*header*/
+nav {
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.Login a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+.Login a:hover{
+    color: tomato;
+}
+.Logo img, .img-footer img {
+    width: 200px;
+}
+
+.nav-content a {
+    text-decoration: none;
+    color: black;
+}
+/*.product-content-img:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) 
+}*/
+.nav-content ul {
+    text-align: center;
+}
+
+    .nav-content ul li {
+        display: inline-block;
+        margin: 15px;
+        font-size: 20px;
+    }
+
+        .nav-content ul li a:hover {
+            font-weight: bold;
+            color: #f83939;
+        }
+
+
+/*Main Contain*/
+.main-contain {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 20% 70%;
+    grid-auto-flow: column;
+    grid-column-gap: 10px;
+}
+
+    .main-contain img {
+        width: 250px;
+    }
+
+.product-content {
+    height: auto;
+}
+
+.product ul .product-content {
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.product-content-detail {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.btnThem {
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #f83939;
+    color: white;
+}
+
+    .btnThem:hover {
+        background-color: #ff7878;
+    }
+/*search-bar*/
+.search-bar {
+    margin-left: 10px;
+}
+
+    .search-bar input, #btnTimKiem {
+        padding: 5px;
+        border: none;
+        background-color: whitesmoke;
+        margin-top: 5px;
+    }
+
+#btnTimKiem {
+    border: none;
+    cursor: pointer;
+    background-color: #f83939;
+    color: whitesmoke;
+}
+
+    #btnTimKiem:hover {
+        background-color: #ff7878;
+    }
+
+/*Footer*/
+.footer-item {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-footer ul {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+    .social-footer ul li {
+        padding: 10px;
+    }
+
+        .social-footer ul li a img {
+            width: 48px;
+        }
+
+
+
